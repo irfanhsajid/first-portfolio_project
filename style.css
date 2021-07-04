@@ -3,7 +3,7 @@ body{
     margin: 0;
     padding: 0;
 }
-
+/* top section starts here */
 h1{
     font-size: 50px;
 }
@@ -11,8 +11,10 @@ h1{
     color: orange;
 }
 
-section{
+.top-section{
     display: flex;
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
 }
 
 .upper-part{
@@ -22,7 +24,7 @@ margin-left: 35px;
  
 }
 .upper-part img{
-    width: 85%;
+    width: 80%;
     margin-left: 30px;
     margin-top: 20px;
 }
@@ -35,8 +37,48 @@ margin-left: 35px;
     padding: 10px 40px;
     border-radius: 5px;
    color: white;
+   font-weight: bold;
+   letter-spacing: 2px;
+   text-transform: uppercase;
 }
-.top-section{
-    background-image: url(images/top-banner.png);
+
+/* Top section ends here */
+
+/* middle section starts here */
+
+.middle-section{
+    display: flex;
+    margin-top: 100px;
+    background-image:url(images/dream-bg.png);
     background-repeat: no-repeat;
+    background-position: right;
+    
 }
+.middle-part{
+    width: 50%;
+}
+.middle-part img{
+    width: 74%;
+    margin-left: 35px;
+}
+.inShaAllah{
+    color: orange;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+.middle-part p{
+    padding-bottom: 15px;
+    margin-right: 10px;
+}
+.resume-btn{
+    text-decoration: none;
+    background-image: linear-gradient(orange,tomato);
+    padding: 15px 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* middle section ends here */
