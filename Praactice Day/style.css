@@ -74,3 +74,36 @@ p{
     box-shadow: 10px 10px 40px #f86b8a;
     
 }
+.expart-section{
+    
+    margin-top: 120px;
+    margin-bottom: 50px;
+}
+.expart-section h2{
+    margin-left: 5px;
+    color:  #f32839 ;
+    padding-bottom: 15px;
+    font-weight: 350;
+   
+}
+.front-end-expart{
+    display: flex;
+}
+.front-end{
+    width: 30%;
+    margin-left: 3%;
+    margin-right: 3%;
+    border: 1px solid red ;
+    text-align: center;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px whitesmoke;
+
+}
+.front-end h1{
+    color:#f32839 ;
+    font-family: 'Dancing Script', cursive;
+}
+.front-end p{
+    color: gray;
+}
