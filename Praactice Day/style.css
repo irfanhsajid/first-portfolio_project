@@ -1,0 +1,76 @@
+body{
+    font-family: 'Arimo', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0d2344;
+}
+
+.top-section{
+    display: flex;
+   
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+.top-section img{
+    box-shadow: 10px 10px 40px #f86b8a;
+}
+.half-part{
+    width: 50%;
+    margin-left:5% ;
+    margin-right: 5%;
+}
+h1{
+    font-size: 50px;
+    color: white;
+}
+p{
+    color: white;
+    font-size:25 ;
+    font-weight: lighter;
+    margin-bottom: 30px;
+}
+.red-name{
+    color: red;
+}
+
+.contact-btn{
+    
+    text-decoration: none;
+    color: red;
+    border: 1px solid red;
+    padding: 7px 10px;
+    border-radius: 10px;
+    text-transform: uppercase;
+  
+
+}
+
+.half-part img{
+    width: 70%;
+    border-radius: 50%;
+    margin-left: 20%;
+    margin-top: 10%;
+
+}
+
+.text{
+    padding-bottom: 5%;
+}
+
+.mid-section{
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.mid-section h2{
+    color: gainsboro;
+}
+.mid-section p{
+    color: gray;
+}
+
+.mid-section img{
+   width: 85%;
+    box-shadow: 10px 10px 40px #f86b8a;
+    
+}
